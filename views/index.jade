@@ -1,0 +1,22 @@
+extends layout
+
+block title
+  title HelloWorld
+
+block addStatics
+  link(rel='stylesheet', href='/css/main.css')
+  
+block content
+  input(type="hidden",id="apiUrl", value="#{apiUrl}") 
+  table#connectionTable
+    tr
+      th Service
+      th Status
+    tr
+      td API
+      td#apiStatus Loading
+    tr
+      td DB
+      td#dbStatus Loading
+
+  script(type="text/javascript", src="/js/script.js")

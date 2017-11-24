@@ -1,0 +1,151 @@
+@font-face {
+  font-family: FuturaStd-Bold;
+  src: url(/../fonts/futuraFont/FuturaStd-Bold.otf);
+}
+@font-face {
+  font-family: FuturaStd-BoldOblique;
+  src: url(/../fonts/futuraFont/FuturaStd-BoldOblique.otf);
+}
+@font-face {
+  font-family: FuturaStd-Book;
+  src: url(/../fonts/futuraFont/FuturaStd-Book.otf);
+}
+@font-face {
+  font-family: FuturaStd-BookOblique;
+  src: url(/../fonts/futuraFont/FuturaStd-BookOblique.otf);
+}
+@font-face {
+  font-family: FuturaStd-Condensed;
+  src: url(/../fonts/futuraFont/FuturaStd-Condensed.otf);
+}
+@font-face {
+  font-family: FuturaStd-CondensedBold;
+  src: url(/../fonts/futuraFont/FuturaStd-CondensedBold.otf);
+}
+@font-face {
+  font-family: FuturaStd-CondensedBoldObl;
+  src: url(/../fonts/futuraFont/FuturaStd-CondensedBoldObl.otf);
+}
+@font-face {
+  font-family: FuturaStd-CondensedExtraBd;
+  src: url(/../fonts/futuraFont/FuturaStd-CondensedExtraBd.otf);
+}
+@font-face {
+  font-family: FuturaStd-CondensedLight;
+  src: url(/../fonts/futuraFont/FuturaStd-CondensedLight.otf);
+}
+@font-face {
+  font-family: FuturaStd-CondensedLightObl;
+  src: url(/../fonts/futuraFont/FuturaStd-CondensedLightObl.otf);
+}
+@font-face {
+  font-family: FuturaStd-CondensedOblique;
+  src: url(/../fonts/futuraFont/FuturaStd-CondensedOblique.otf);
+}
+@font-face {
+  font-family: FuturaStd-CondExtraBoldObl;
+  src: url(/../fonts/futuraFont/FuturaStd-CondExtraBoldObl.otf);
+}
+@font-face {
+  font-family: FuturaStd-ExtraBold;
+  src: url(/../fonts/futuraFont/FuturaStd-ExtraBold.otf);
+}
+@font-face {
+  font-family: FuturaStd-ExtraBoldOblique;
+  src: url(/../fonts/futuraFont/FuturaStd-ExtraBoldObique.otf);
+}
+@font-face {
+  font-family: FuturaStd-Heavy;
+  src: url(/../fonts/futuraFont/FuturaStd-Heavy.otf);
+}
+@font-face {
+  font-family: FuturaStd-Light;
+  src: url(/../fonts/futuraFont/FuturaStd-Light.otf);
+}
+@font-face {
+  font-family: FuturaStd-LightOblique;
+  src: url(/../fonts/futuraFont/FuturaStd-LightOblique.otf);
+}
+@font-face {
+  font-family: FuturaStd-Medium;
+  src: url(/../fonts/futuraFont/FuturaStd-Medium.otf);
+}
+@font-face {
+  font-family: FuturaStd-MediumOblique;
+  src: url(/../fonts/futuraFont/FuturaStd-MediumOblique.otf);
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('/../fonts/icomoon/icomoon.eot?lidtwq');
+    src:    url('/../fonts/icomoon/icomoon.eot?lidtwq#iefix') format('embedded-opentype'),
+        url('/../fonts/icomoon/icomoon.ttf?lidtwq') format('truetype'),
+        url('/../fonts/icomoon/icomoon.woff?lidtwq') format('woff'),
+        url('/../fonts/icomoon/icomoon.svg?lidtwq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-activity:before {
+    content: "\e900";
+}
+.icon-add:before {
+    content: "\e901";
+}
+.icon-check:before {
+    content: "\e902";
+}
+.icon-chevron-down:before {
+    content: "\e903";
+}
+.icon-chevron-right:before {
+    content: "\e904";
+}
+.icon-close:before {
+    content: "\e905";
+}
+.icon-delete:before {
+    content: "\e906";
+}
+.icon-gear:before {
+    content: "\e907";
+}
+.icon-group:before {
+    content: "\e908";
+}
+.icon-manager:before {
+    content: "\e909";
+}
+.icon-picture:before {
+    content: "\e90a";
+}
+.icon-quickadd:before {
+    content: "\e90b";
+}
+.icon-search:before {
+    content: "\e90c";
+}
+.icon-upload:before {
+    content: "\e90d";
+}
+.icon-user:before {
+    content: "\e90e";
+}
+.icon-video:before {
+    content: "\e90f";
+}
